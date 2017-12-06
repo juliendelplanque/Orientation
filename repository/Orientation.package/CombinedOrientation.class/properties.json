@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 12/6/2017 23:00",
+	"super" : "Orientation",
+	"category" : "Orientation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstOrientation",
+		"secondOrientation"
+	],
+	"name" : "CombinedOrientation",
+	"type" : "normal"
+}

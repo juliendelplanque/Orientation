@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 12/6/2017 23:01",
+	"super" : "SimpleOrientation",
+	"category" : "Orientation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "North",
+	"type" : "normal"
+}
