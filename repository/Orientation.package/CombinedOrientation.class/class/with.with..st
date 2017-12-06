@@ -5,6 +5,8 @@ with: anOrientation with: anotherOrientation
 	 combination well printed.
 	"
 	| orientations |
+	anOrientation opposite = anotherOrientation
+		ifTrue: [ self error: 'You can not combine an orientation with its opposite orientation.' ].
 	orientations := { anOrientation . anotherOrientation }
 							sort: [ :a :b | a combinationPriority > b combinationPriority ].
 	^ self basicNew
