@@ -1,3 +1,3 @@
 orientations
 east
-	^ East basicNew
+	^ East uniqueInstance

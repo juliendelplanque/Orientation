@@ -1,3 +1,3 @@
 orientations
 west
-	^ West basicNew
+	^ West uniqueInstance

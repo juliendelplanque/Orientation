@@ -1,3 +1,3 @@
 orientations
 north
-	^ North basicNew
+	^ North uniqueInstance

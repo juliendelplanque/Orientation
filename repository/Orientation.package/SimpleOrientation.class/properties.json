@@ -2,7 +2,9 @@
 	"commentStamp" : "JulienDelplanque 12/6/2017 23:01",
 	"super" : "Orientation",
 	"category" : "Orientation",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"uniqueInstance"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

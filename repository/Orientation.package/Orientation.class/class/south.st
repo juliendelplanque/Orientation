@@ -1,3 +1,3 @@
 orientations
 south
-	^ South basicNew
+	^ South uniqueInstance
