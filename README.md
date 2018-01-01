@@ -77,7 +77,7 @@ Orientation north turnAround. "South"
 Orientation southEast turnAround. "North-West"
 ```
 
-Finally, an orientation is able to compute the position reached if one walk `n` steps in the orientation from a `Point` in a discrete grid:
+Finally, an orientation is able to compute the position reached if one walk `n` steps in the orientation from a `Point` on a discrete grid:
 ```
 Orientation north move: 3 from: 0@0. "(0@3)"
 Orientation southEast move: 42 from: 1@1. "(43@ -41)"
