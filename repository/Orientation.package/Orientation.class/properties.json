@@ -2,7 +2,12 @@
 	"commentStamp" : "JulienDelplanque 12/6/2017 22:59",
 	"super" : "Object",
 	"category" : "Orientation",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"northEast",
+		"northWest",
+		"southEast",
+		"southWest"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

@@ -1,3 +1,3 @@
 combined orientations
 northEast
-	^ CombinedOrientation with: self north with: self east
+	^ northEast ifNil: [ northEast := CombinedOrientation with: self north with: self east ]
